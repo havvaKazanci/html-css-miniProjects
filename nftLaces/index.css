@@ -6,3 +6,33 @@ body{
      margin: 0;
 
 }
+
+header{
+     background: #5f29a3;
+     padding-top: 45px;
+     padding-bottom: 45px;
+}
+
+header > h1{
+     font-size: 36px;
+     color: whitesmoke;
+     margin: 0;
+
+
+}
+
+header > h3{
+     font-size: 20px;
+     color: #d0aaff;
+     margin: 0;
+
+}
+
+section{
+     padding: 45px 0;
+
+}
+
+.sneakers{
+     width: 100%;
+}
