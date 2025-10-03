@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+}
+
+.header-text {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.header-text li:not(:last-child)::after {
+    content: "|";
+    margin-left: 10px;
+}
+
+h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif; 
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+header{
+    background-color: #b80000;
+    padding: 15px 20px;
+    
+}
+
+section{
+    padding: 30px 20px;
+    display: flex;
+}
+
+.header-text{
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.selected{
+    text-decoration: underline;
+}
+
+.text-left{
+    padding-right: 20px;
+}
+
+img{
+    width: 250px;
+}
+
+footer{
+    padding: 5px;
+    text-align: center;
+    font-size: small;
+}
