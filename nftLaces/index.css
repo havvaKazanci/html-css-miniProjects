@@ -7,13 +7,25 @@ body{
 
 }
 
-header{
-     background: #5f29a3;
-     padding-top: 45px;
-     padding-bottom: 45px;
+a{
+    color: #ef5839;
+    text-decoration: underline dotted; 
 }
 
-header > h1{
+a:hover, a:active{
+    color: #d4b44c;
+}
+
+p{
+     line-height: 23px;
+}
+
+.section-two, header{
+      background: #5f29a3;
+}
+
+
+header  h1{
      font-size: 36px;
      color: whitesmoke;
      margin: 0;
@@ -21,18 +33,82 @@ header > h1{
 
 }
 
-header > h3{
+header  h3{
      font-size: 20px;
      color: #d0aaff;
      margin: 0;
 
 }
 
-section{
-     padding: 45px 0;
-
-}
 
 .sneakers{
      width: 100%;
 }
+
+.container{
+     width: 620px;
+     margin: 0 auto;
+}
+
+
+.images-div{
+     display: flex;
+     justify-content: space-between;
+}
+
+.images{
+     width: 300px;
+     border-radius: 4.6px;
+}
+
+footer{
+     text-align: center;
+     color:#5f29a3;
+}
+
+
+footer, section, header{
+     padding: 45px 0;
+}
+
+.button-vision{
+     
+     text-decoration: none;
+     padding: 10px 19px;
+     
+     border-radius: 4.6px;
+     font-weight: 500;
+}
+
+.btn-dark{
+     background-color: #5f29a3;
+     color: whitesmoke;
+}
+
+.btn-light{
+     color: #5f29a3;
+     background-color: #f0e0ff;
+}
+
+.btn-mid{
+     color: #5f29a3;
+     background-color: whitesmoke;
+}
+
+
+.btn-links {
+     padding: 10px 19px;
+     font-weight: 500;
+     border-radius: 4.6px;
+     display: inline-block;
+     text-decoration: none;
+}
+
+
+ 
+.btn-links:hover,
+.btn-links:active{
+     background-color: #f3e885;
+     color: #2b283a;
+}
+
